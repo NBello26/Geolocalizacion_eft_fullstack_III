@@ -21,7 +21,7 @@ spec:
         - containerPort: 8083
         env:
         - name: DB_URL
-          value: "jdbc:postgresql://sanosdb-service:5432/db_mascotas"
+          value: "jdbc:postgresql://sanosdb-service:5432/db_geolocalizacion"
         - name: DB_USERNAME
           valueFrom:
             secretKeyRef:
