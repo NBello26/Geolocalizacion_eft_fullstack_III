@@ -5,7 +5,7 @@ metadata:
   labels:
     app: ms-geolocalizacion
 spec:
-  replicas: 2
+  replicas: 2 #Dos por alta disponibilidad
   selector:
     matchLabels:
       app: ms-geolocalizacion
